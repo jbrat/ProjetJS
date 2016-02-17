@@ -20,23 +20,24 @@ Le BackEnd estun serveur créé avec NodeJS, il joue le rôle d'une API Rest per
 
 Vous devez posséder NodeJS ainsi que npm 
 
--- bash
+``` bash
 	apt-get install nodejs
 	apt-get install npm
---
+```
 
 Une fois fait il ne vous reste qu'a réaliser un npm install sur les dossiers du serveur et du front. 
 
 Pour compiler le code ReactJS utiliser la commande : 
--- bash
+
+``` bash
 node_modules/.bin/webpack -w --config 
---
+```
 
 Et pour lancer le serveur :
 
--- bash
+``` bash
 node --harmony --use_strict server/index.js
---
+```
 
 Il vous suffira d'accéder à la page index.html situé dans front/ pour avoir l'affichage. 
 
