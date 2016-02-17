@@ -19,6 +19,7 @@ var Tableau = React.createClass({
             }
             return response.json();				
         }).then(function(datas) {
+            //Erreur pour le setState les données sont bien récupérées mais impossible de les mettre dans le state, il ne connais pas this.setState
             this.setState({values: datas});
         }).catch(function(err) {
            console.log(err);
