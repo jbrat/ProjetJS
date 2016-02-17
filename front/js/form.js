@@ -25,6 +25,8 @@ var Form = React.createClass({
             }).catch(function(err){
                 console.log(err);
             });	
+           
+            // Appel vers la méthode addLine du tableau je n'ai pas réussi à faire cet appel même en utilisant les props je ne vois pas comment le faire :(
     },
 
     render: function() {
@@ -43,7 +45,7 @@ var Form = React.createClass({
                             <td><input type="text" name="episode" placeholder="Episode"/></td>
                         </tr>
                         <tr>
-                            <td><input type="submit" value="Search"/></td>
+                            <td><input type="submit" value="Add"/></td>
                         </tr>
                     </table>
             </form>
