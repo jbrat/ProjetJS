@@ -19,7 +19,7 @@ var Tableau = React.createClass({
             }
             return response.json();				
         }).then(function(datas) {
-                this.setState({ values: datas });
+            this.setState({values: datas});
         }).catch(function(err) {
            console.log(err);
         });	
