@@ -1,12 +1,12 @@
 ##Projet Javascript Licence 
 
-#Organisation du travail : 
+###Organisation du travail : 
 
-Design/css : Paul NEGRONI
-Developpement React & Server NodeJS : Julien BRAT
+- Design/css : Paul NEGRONI
+- Developpement React & Server NodeJS : Julien BRAT
 
 
-#Realisation
+###Realisation
 
 - FrontEnd en ReactJS
 Interface très simple avec un tableau listant une liste de séries ainsi qu'un formulaire permettant d'ajouter une série. Ces deux composants sont créés à partir du framework ReactJS, ils sont aussi relié à l'aide de requête à un serveur qui a été developpé sur NodeJS. 
@@ -16,7 +16,7 @@ Interface très simple avec un tableau listant une liste de séries ainsi qu'un 
 Le BackEnd estun serveur créé avec NodeJS, il joue le rôle d'une API Rest permettant de post,delete,get des series se trouvant sur le serveur, une architecture MVC est présente et un HTTP status est retourné à chaque Réponse du serveur. 
 
 
-#Installation 
+###Installation 
 
 Vous devez posséder NodeJS ainsi que npm 
 
