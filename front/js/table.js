@@ -48,7 +48,8 @@ var Tableau = React.createClass({
                         <td>{v.serie}</td>
                         <td>{v.season}</td>
                         <td>{v.episode}</td>
-                    </tr>);
+                    </tr>
+            );
         });
         
         return (<table>
