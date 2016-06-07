@@ -2,8 +2,7 @@
 
 ###Organisation du travail : 
 
-- Design/css : Paul NEGRONI
-- Developpement React & Server NodeJS : Julien BRAT
+Réalisé par :  Julien BRAT
 
 
 ###Realisation
