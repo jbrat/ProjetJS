@@ -39,5 +39,3 @@ node --harmony --use_strict server/index.js
 ```
 
 Il vous suffira d'accéder à la page index.html située dans front/ pour avoir l'affichage. 
-
-Le design réalisé par Paul NEGRONI est dit responsive, il s'adapte sur les différents types d'écrans. 
